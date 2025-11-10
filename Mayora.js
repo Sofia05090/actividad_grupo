@@ -4,7 +4,7 @@ let numeros = [5, 3, 25, 14, 53, 6, 73, 8, 29, 10];
 
 function numerosMayores(num){
         console.log("Los numeros mayores a " + num + " son: ");
-        if (i = 0, i < numeros.length, i++){
+        for (i = 0; i < numeros.length; i++){
             if (numeros[i] > num){
                 console.log(numeros[i]);
             }
@@ -13,4 +13,4 @@ function numerosMayores(num){
 
     }
 
-numerosMayores(3);
+numerosMayores(30);
